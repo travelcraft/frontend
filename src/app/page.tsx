@@ -1,3 +1,5 @@
+import Landing from "@/pages/(Landing)/landing";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
 
@@ -6,12 +8,11 @@ export default function Home() {
     
     <>
     
-      <div style={{border:"4px solid black", height: "100vh", width:"100%"}}>
+      <Navbar/>
+      <Landing/>
 
-        TEST
+      <div style={{height:"100vh"}}></div>
 
-      </div>
-    
     </>
   
   );

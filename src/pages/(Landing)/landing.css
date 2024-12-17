@@ -1,0 +1,68 @@
+.basico {
+
+    width: 100%;
+    height: 97vh;
+
+    border-end-start-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 4px solid green;
+
+}
+
+
+.columna {
+
+    width: 90%;
+    height: 95vh;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 25vw;
+
+    background-color: rgba(255, 255, 255, 0.80);
+    border-radius: 10px;
+
+    gap:10px;
+
+
+}
+
+.columna-1 {
+
+    border: 4px solid yellow;
+    border-radius: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+}
+
+
+
+.columna-2 {
+
+    border: 4px solid red;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.fotos {
+
+    border: 4px solid purple;
+
+    width: 100%;
+    height: 50vh;
+
+    border-radius: 30px;
+
+
+}
