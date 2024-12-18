@@ -1,4 +1,5 @@
 import './landing.css'
+import Image from 'next/image';
 
 
 export default function Landing() {
@@ -8,30 +9,23 @@ export default function Landing() {
       
       <>
 
+        <div className='fondo'>
+
+          <Image
+          src="/images/1.jpg"
+          alt="Fondo optimizado"
+          fill
+          quality={100} // Ajusta la calidad
+          priority
+          className='imagen'
+          />
+
+          <div className='grid-overlay'></div>    
+      
+        </div>
+
         <div className='basico'>
 
-          <div className="columna">
-      
-            <div className='columna-1'>
-            
-
-               <div className=''>
-
-               </div>
-            
-            </div>
-
-            <div className='columna-2'>
-            
-              <div className='fotos'>
-
-
-              </div>
-            
-            </div>
-
-          </div>
-      
         </div>
 
       </>
